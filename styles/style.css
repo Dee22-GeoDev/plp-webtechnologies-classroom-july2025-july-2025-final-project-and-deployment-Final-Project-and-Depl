@@ -38,8 +38,16 @@ nav {
     justify-content: space-between;
     align-items: right;
     padding: 10px 20px;
-    background: #f8f8f8;
     border-bottom: 1px solid #ddd;
+}
+
+.nav-bar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #d1e1f1;
+    
 }
 
 .nav-links {
@@ -75,6 +83,7 @@ nav {
     margin-top: 25px;
     transition: transform 2s ease-in-out, box-shadow 3s ease-in-out;
     animation: float 3s ease-in-out infinite;
+    background-color: #d1e1f1;
 }
 
 .intro:hover {
@@ -117,7 +126,7 @@ nav {
 }
 
 .content {
-    font-size: 18px;
+    font-size: 25px;
     color: #555;
     max-width: 600px;
     line-height: 1.6;
@@ -126,6 +135,7 @@ nav {
 .content {
   opacity: 0;
   transform: translateY(20px);
+  transition: color 0.5s ease, transform 0.5s ease;
   animation: fadeIn 2s ease-out forwards;
 }
 
@@ -134,10 +144,6 @@ nav {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.content {
-  transition: color 0.5s ease, transform 0.5s ease;
 }
 
 .content:hover {
@@ -170,7 +176,7 @@ nav {
 
 .about-me {
     padding: 25px;
-    background-color: #e0e0e0;
+    width: 100%;
     margin-top: 25px;
     border-radius: 8px;
 }
@@ -184,9 +190,9 @@ nav {
 
 .skills {
     padding: 25px;
-    background-color: #d0d0d0;
     margin-top: 25px;
     border-radius: 8px;
+    width: 100%;
 }
 
 .skills ul {
@@ -204,9 +210,9 @@ nav {
 
 .projects {
     padding: 25px;
-    background-color: #c0c0c0;
     margin-top: 25px;
     border-radius: 8px;
+    width: 100%;
 }
 
 .project {
@@ -225,15 +231,16 @@ nav {
 
 .form-section {
     padding: 25px;
-    background-color: #e0e0e0;
     margin-top: 25px;
     border-radius: 8px;
+    width: 100%;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin: 10px 24px;
     max-width: 600px;
     margin: 0 auto;
     text-align: left;
@@ -249,6 +256,18 @@ nav {
     cursor: pointer;
     font-size: 16px;
     margin-top: 10px;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+.input_details {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
 }
 
 .form label {
