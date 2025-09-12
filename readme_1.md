@@ -3,7 +3,8 @@
 A fully responsive, interactive multipage website built with HTML5, CSS, and JavaScript. This project demonstrates modern web development practices, including semantic HTML structure, responsive design, interactive JavaScript features, and professional deployment.
 
 ## 🌐 Live Demo
-[View Live Website](profound-kheer-835e54.netlify.app)
+## 🌐 Live Demo
+[View Live Website](https://profound-kheer-835e54.netlify.app)
 
 ## 📋 Project Overview
 
