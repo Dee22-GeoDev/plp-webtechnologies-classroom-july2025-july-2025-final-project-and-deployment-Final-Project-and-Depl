@@ -10,9 +10,9 @@ A fully responsive, interactive multipage website built with HTML5, CSS, and Jav
 This multipage website includes:
 - **Home Page**: Welcome section with hero banner and site navigation
 - **About Page**: Personal/company information and background
-- **Services/Portfolio**: Showcase of work, projects, or services offered
+- **Projects Page**: Showcase of work, projects, or services offered.
 - **Contact Page**: Interactive contact form with validation
-- **Gallery/Blog**: Additional content showcase (optional)
+- **Skills Page**: Showcase of skills.
 
 ### Key Features
 - ✅ Fully responsive design (mobile, tablet, desktop)
