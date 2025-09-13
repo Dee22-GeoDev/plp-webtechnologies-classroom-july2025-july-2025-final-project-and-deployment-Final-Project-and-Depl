@@ -84,6 +84,8 @@ nav {
     transition: transform 2s ease-in-out, box-shadow 3s ease-in-out;
     animation: float 3s ease-in-out infinite;
     background-color: #d1e1f1;
+    height: 100%;
+    width: 100%;
 }
 
 .intro:hover {
