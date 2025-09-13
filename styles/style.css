@@ -177,6 +177,7 @@ nav {
 .about-me {
     padding: 25px;
     width: 100%;
+    height: 100%;
     margin-top: 25px;
     border-radius: 8px;
 }
@@ -193,6 +194,7 @@ nav {
     margin-top: 25px;
     border-radius: 8px;
     width: 100%;
+    height: 100%;
 }
 
 .skills ul {
@@ -226,6 +228,7 @@ nav {
     margin-top: 25px;
     border-radius: 8px;
     width: 100%;
+    height: 100%
 }
 
 .project {
@@ -247,6 +250,7 @@ nav {
     margin-top: 25px;
     border-radius: 8px;
     width: 100%;
+    height: 100%;
 }
 
 .form {
