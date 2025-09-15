@@ -165,9 +165,8 @@ nav {
 }
 
 .greet {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
-    font-family: 'Poppins', sans-serif;
     color: #373438;
     animation: slideIn 1s ease-out forwards;
 }
@@ -207,9 +206,8 @@ nav {
 
 .content:hover {
     color: #007BFF;
-    /* changes color */
     transform: scale(1.05);
-    /* slightly zoom in */
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .buttons {
@@ -331,8 +329,8 @@ nav {
     flex-direction: column;
     gap: 25px;
     margin: 10px 30px;
-    width: 600px;
-    min-height: 80px;
+    width: 400px;
+    min-height: 30px;
     margin: 0 auto;
     text-align: left;
     justify-content: left;
@@ -345,7 +343,7 @@ nav {
 }
 
 .message {
-    min-height: 100px;
+    min-height: 65px;
     border-radius: 4px;
     font-size: 16px;
     padding: 10px;
@@ -355,7 +353,7 @@ nav {
     background-color: #007BFF;
     color: white;
     border: none;
-    padding: 20px 40px;
+    padding: 15px 30px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -455,19 +453,17 @@ nav {
         flex-direction: column;
         position: absolute;
         top: 56px;
-        right: 0;
         left: 0;
         background: #fff;
         padding: 12px 0;
         gap: 10px;
-        z-index: 999;/
+        z-index: 999;
         box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
     }
 
     .nav-links li {
         text-align: center;
         border-radius: 4px;
-        padding: 8px 16px;
     }
 
     .nav-links li:hover {
