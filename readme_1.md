@@ -12,7 +12,7 @@ This multipage website includes:
 - **About Page**: Personal/company information and background
 - **Projects Page**: Showcase of work, projects, or services offered.
 - **Contact Page**: Interactive contact form with validation
-- **Skills Page**: Showcase of skills.
+- **Services Page**: Showcase of what we offer.
 
 ### Key Features
 - ✅ Fully responsive design (mobile, tablet, desktop)
