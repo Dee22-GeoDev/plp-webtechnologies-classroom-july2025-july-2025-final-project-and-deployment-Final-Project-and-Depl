@@ -362,7 +362,6 @@ nav {
     flex-direction: row;
     position: absolute;
     top: 56px; /* adjust to navbar height */
-    right: 0;
     left: 0; /* full width */
     background: #fff;
     padding: 12px 0;
