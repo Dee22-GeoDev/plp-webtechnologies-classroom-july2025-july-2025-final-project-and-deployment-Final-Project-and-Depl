@@ -233,6 +233,26 @@ nav {
     background-color: #0056b3;
 }
 
+.about-section {
+    background-color: #f9f9f9;
+    width: 50%;
+    padding: 40px 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.about-section:hover {
+    background-color: #e9e9e9;
+    transform: translateY(-3px);
+}
+
+.mission {
+    margin-top: 25px;
+}
+
 .about-us {
     padding: 25px;
     width: 100%;
@@ -324,16 +344,24 @@ nav {
     background-color: white;
 }
 
+.contact-form {
+    border: 2px solid #413b3b;
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
     gap: 25px;
     margin: 10px 30px;
-    width: 400px;
+    width: 300px;
     min-height: 30px;
     margin: 0 auto;
-    text-align: left;
-    justify-content: left;
+    text-align: center;
+    justify-content: center;
     border-radius: 4px;
 }
 
@@ -453,6 +481,7 @@ nav {
         flex-direction: column;
         position: absolute;
         top: 56px;
+        right: 0;
         left: 0;
         background: #fff;
         padding: 12px 0;
